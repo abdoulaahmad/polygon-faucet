@@ -3,7 +3,6 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
 
 # Environment variables
 .env
@@ -12,33 +11,10 @@ package-lock.json
 .env.test.local
 .env.production.local
 
-# Build outputs
-dist/
-build/
-*.tsbuildinfo
 
-# IDE and Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-logs/
-*.log
 
 # Runtime data
-pids/
+pids
 *.pid
 *.seed
 *.pid.lock
@@ -52,6 +28,9 @@ coverage/
 
 # Dependency directories
 jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
 
 # Optional npm cache directory
 .npm
@@ -74,34 +53,60 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
-
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
 
-# next.js build output
+# Next.js build output
 .next
 
-# nuxt.js build output
+# Nuxt.js build / generate output
 .nuxt
+dist
 
-# gatsby files
+# Gatsby files
 .cache/
 public
 
-# Serverless directories
-.serverless/
+# Storybook build outputs
+.out
+.storybook-out
 
-# FuseBox cache
-.fusebox/
+# Temporary folders
+tmp/
+temp/
 
-# DynamoDB Local files
-.dynamodb/
+# Logs
+logs
+*.log
 
-# TernJS port file
-.tern-port
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Redis dump file
+dump.rdb
+
+# Backup files
+*.backup
+*.bak
+
+# Test results
+test-results/
+playwright-report/
