@@ -16,14 +16,14 @@
 
 ## 🖼️ Screenshots
 
-![Faucet Interface](./screenshots/faucet-main.png)
+![Faucet Interface](./screenshots/faucet-main1.png)
 *Futuristic glassmorphic interface with cosmic background*
 
 ## 🚀 Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/polygon-faucet.git
+git clone https://github.com/abdoulaahmad/polygon-faucet.git
 cd polygon-faucet
 
 # Install dependencies
